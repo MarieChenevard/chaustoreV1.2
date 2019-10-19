@@ -1,0 +1,150 @@
+                                             body {
+                                             margin: O;
+                                             padding: 0;
+                                             height: 100vh;
+                                             width: 100%;
+                                         }
+                                         
+                                         .entete {
+                                             width: 100%;
+                                             display: flex;
+                                         }
+                                         
+                                         .boutonRetour {
+                                             float: right;
+                                             margin-top: 21px;
+                                             margin-right: 20px;
+                                         }
+                                         
+                                         .chaustore {
+                                             text-decoration: none;
+                                             float: left;
+                                             margin-left: 20px;
+                                             width: 92%;
+                                         }
+                                         
+                                         h1,
+                                         h2,
+                                         p {
+                                             font-family: 'Gilda Display', serif;
+                                             color: black;
+                                         }
+                                         
+                                         h2 {
+                                             h1 {
+                                                 font-size: 40px;
+                                                 margin-top: 70px;
+                                                 margin-bottom: 70px;
+                                             }
+                                             h2 {
+                                                 font-size: 20px;
+                                                 margin-bottom: 50px;
+                                             }
+                                             text-align: center;
+                                         }
+                                         
+                                         #choix,
+                                         #choix_action {
+                                             display: flex;
+                                             flex-direction: row;
+                                             justify-content: center;
+                                         }
+                                         
+                                         h3 {
+                                             display: flex;
+                                             flex-direction: row;
+                                         }
+                                         
+                                         h4 {
+                                             font-family: 'Carter One', cursive;
+                                             color: black;
+                                             font-size: 22px;
+                                             width: 100%;
+                                         }
+                                         
+                                         .button {
+                                             width: 115px;
+                                             height: 50px;
+                                             font-size: 21px;
+                                             margin: 10px;
+                                             margin-bottom: 50px;
+                                             font-family: 'Gilda Display', serif;
+                                             font-weight: bold;
+                                             border-radius: 10px;
+                                             background-color: white;
+                                         }
+                                         
+                                         .button:hover {
+                                             background: linear-gradient(#ffcccc, white);
+                                         }
+                                         
+                                         #visualiser,
+                                         #ajouter,
+                                         #modifier,
+                                         #supprimer,
+                                         #couleur,
+                                         #marque,
+                                         #taille,
+                                         #categorie,
+                                         #produit {
+                                             width: 84px;
+                                             height: 33px;
+                                             font-size: 15px;
+                                             margin: 10px;
+                                             font-family: 'Gilda Display', serif;
+                                             font-weight: bold;
+                                             border-radius: 10px;
+                                             background-color: white;
+                                         }
+                                         
+                                         #visualiser {
+                                             background: linear-gradient(#dfe6e9, white);
+                                         }
+                                         
+                                         #ajouter {
+                                             background: linear-gradient(#ffeaa7, white);
+                                         }
+                                         
+                                         #produit {
+                                             background: linear-gradient(#f6e58d, white);
+                                         }
+                                         
+                                         #couleur {
+                                             background: linear-gradient(#ffbe76, white);
+                                         }
+                                         
+                                         #supprimer {
+                                             background: linear-gradient(#ff7979, white);
+                                         }
+                                         
+                                         #modifier {
+                                             background: linear-gradient(#badc58, white);
+                                         }
+                                         
+                                         #categorie {
+                                             background: linear-gradient(#dff9fb, white);
+                                         }
+                                         
+                                         .listing {
+                                             text-align: center;
+                                             font-family: 'Gilda Display', serif;
+                                             font-size: 22px;
+                                             line-height: 150%;
+                                         }
+                                         
+                                         .add {
+                                             font-size: 21px;
+                                             font-weight: bold;
+                                             font-family: 'Gilda Display', serif;
+                                             height: 32px;
+                                             background: linear-gradient(#ff7979, white);
+                                             color: black;
+                                         }
+                                         
+                                         .write {
+                                             font-size: 21px;
+                                             font-weight: bold;
+                                             font-family: 'Gilda Display', serif;
+                                             height: 32px;
+                                             color: black;
+                                             margin-bottom: 30px;
